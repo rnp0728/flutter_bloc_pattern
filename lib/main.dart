@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc_pattern/pages/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
+      home: HomePage(),
     );
   }
 }
